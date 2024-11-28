@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="square">
+            <div id="circle" class="circle"></div>
+        </div>
+        <button  onclick="resetColor()"  class="Reset">Reset</button>
+        <button onclick="changeColor('red')" class="Red">Red</button>
+        <button onclick="changeColor('green')" class="Green">Green</button>
+        <button onclick="changeColor('blue')" class="Blue">Blue</button>
+
+    <br>
+        <div class="input-box">
+            <p>Choose a color :</p>
+             <input type="text" id="colorInput" placeholder="e.g., red, #ff0000" />
+             <button class="btn-apply" onclick="applyColorFromInput()">Apply</button>
+        </div>
+        
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
